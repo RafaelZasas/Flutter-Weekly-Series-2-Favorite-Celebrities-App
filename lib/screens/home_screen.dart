@@ -18,8 +18,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rohan\'s favorite celebrities!'),
-        backgroundColor: Colors.pink,
+        title: Text('Raff\'s favorite celebrities!'),
+        backgroundColor: Colors.lightBlueAccent,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.symmetric(vertical: 10.0),
@@ -27,28 +27,28 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             CelebCard(
-              name: 'Conan O\'Brien',
-              tagline: '"Longest running late night show host"',
+              name: 'Leonardo Di Caprio',
+              tagline: '"The Wolf Himself"',
               imageUrl:
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Conan_O%27Brien_by_Gage_Skidmore_2.jpg/1200px-Conan_O%27Brien_by_Gage_Skidmore_2.jpg',
+                  'https://s30886.pcdn.co/wp-content/uploads/2019/09/10-17.jpg',
             ),
             CelebCard(
-              name: 'Craig Ferguson',
-              tagline: '"Owner of a robot skeleton"',
+              name: 'Joe Burrow',
+              tagline: '"Gaux Tigers"',
               imageUrl:
-              'https://upload.wikimedia.org/wikipedia/commons/7/75/Craig_Ferguson_by_Gage_Skidmore.jpg',
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3gqLeMVeMMV0mbY4siukN_NSLrHXbMWPydw&usqp=CAU',
             ),
             CelebCard(
-              name: 'Andy Richter',
-              tagline: 'The author of "Sidekicked to the Curb - The Andy Richter Story"',
+              name: 'Cillian Murphy',
+              tagline: 'AKA Tommy Shelby"',
               imageUrl:
-              'https://m.media-amazon.com/images/M/MV5BYmIxZWY4NzYtYTFjZi00NWZiLTg2NjgtZTAxNzdkNGFjYjc0XkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg',
+                  'https://i2-prod.dailystar.co.uk/incoming/article19572901.ece/ALTERNATES/s615b/0_TommySmall.jpg',
             ),
             CelebCard(
-              name: 'Josh Robert Thompson',
-              tagline: '"Many voices, one person. Legendry voice actor and comedian"',
+              name: 'Samuel L Jackson',
+              tagline: '"Say What Again"',
               imageUrl:
-              'https://m.media-amazon.com/images/M/MV5BMjVjZGE3Y2YtYjFlMS00NWE5LTgzNWMtMzdmZDRkNWU4NzdmXkEyXkFqcGdeQXVyMzc1OTU1MTk@._V1_.jpg',
+                  'https://www.syfy.com/sites/syfy/files/styles/1200x680_hero/public/wire/legacy/MaceWinduWallpaperV2.jpg',
             ),
           ],
         ),
